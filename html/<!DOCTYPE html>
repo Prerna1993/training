@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>FusionCharts Training</title>
+		
+		<script>document.createElement=("main")></script>
+		<link rel="stylesheet" type="text/css" href="8th Mar.css">
+    <script src="change.js"></script>
+	</head>
+	<body>
+
+	<button type="button"
+onclick="document.getElementById('demo').innerHTML=Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+		
+		<script>document.createElement("main")</script>
+  		
+<main >	
+<menuitem><h1 title = "07/03/2016">FusionCharts<h1>
+<a href="#">Training<em> day1</em></a>|
+<a href="https://github.com/Prerna1993/training/blob/master/html/index.html">Training<em> day2</em></a>|
+<a href="https://github.com/Prerna1993/training/blob/master/index.html">Training<em> day3</em></a>|
+<a href="#">Training<em> day4</em></a>
+<hr>
+</menuitem>
+</main>
+<h2 title = "1/03/2016"> Day 1 </h2>
+<article>
+<h3 style="text-align:center">FusionCharts-As a workplace & its Product</h3>
+<p>FusionCharts kolkata,Which is our destination for today. Our office has a very informal enviornment,
+there is no dress code in our office,so no need to be worried about the cloths weather it's formal or not.
+<blockquote>
+The best part is that the company belives in the talent of a person, not in their degree or cloths.<blockquote>
+After entering in the office we get few gifts which made us happy as we all like gifts. There is no any comlicated format of working. Just do your work Properly and enjoy Lots of pizzas' party.The ambience of the office is “wow”,“amazing”.But As we know that walls and furniture just create the ambience but the actual and the real works are done by the employees. After going through the book which is provided by Smitanjana ma’am,I came to know about the company’s beginning and the  growth of the company from  jan 2002 till today. So this growth proves that it’s a good workplace and employees  who are working here really like the work and the workplace too.Thats is why it has 500,000 developers ,across 120 countries.</p>
+<p>Today we met the people who are working here ,I mean my seniors. The experience was really good. Through the introduction process we came to know about different teams who are working on different different products, and the people who are going to guide us.. As well as we talk to Swarnam ma’am and the technical support team of Bangalore. All the seniors are humble and nice.. when I was coming for the office I was nervous but after all the introduction and video call, feeling very light,and I will must say that  FusionCharts’ workplace is employee friendly,I am not the only person who is saying this, the no. of employees is saying everything about the success and the no. of customers are saying about the quality of the products of FusionCharts. So now about the Products of FusionCharts.The products are, 
+<mark>FusionCharts XT , FusionWidgets XT , PowerCharts XT , FusionMaps XT</mark>.
+Till now I have used FusionChartsXT as it supports all the platform i.e.  no specific requirement is needed for using that, is the best part I like about the products. It gives delightful charts of different different types,and easy to understand. Exporting the created chart facilities in different different format is also there.
+</p>
+<p>It is obvious that all the products are good that’s why it has  24,000 customers
+and the most exciting part is that even Barack Obama is using the FusionCharts and the company is in profit.
+As it is my first day so that’s all from my side.
+Thank you, for reading .. :) 
+Prerana Singh
+</p>
+</article>
+<h2 title =  "4/03/2016"> Day 2 </h2>
+
+<article>
+<h3 style="text-align:center;">Red roses</h3>
+<p style= "color:red"> About red roses</p>
+<p>
+A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae. There are over 100 species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing or trailing with stems that are often armed with sharp prickles. Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds.</p>
+ <p>Most species are native to Asia, with smaller numbers native to Europe, North America, and northwest Africa. Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Rose plants range in size from compact, miniature roses, to climbers that can reach seven meters in height.</p>
+<p>Different species hybridize easily, and this has been used in the development of the wide range of garden roses.
+</p>
+
+<content>
+<figure style="text-align: center;">
+
+<img src="http://www.punjabigraphics.com/images/149/Beautiful-Red-Roses-HD-Wallpaper.jpg" width="30%" >
+<br>
+<caption><q>“Some people grumble that roses have thorns; I am grateful that thorns have roses.”<q/> </caption>
+</fiure>
+
+
+<pre Id="demo">
+ 
+                              ,.... 
+                           ,,''    ""-. 
+                      .--,,'           "", 
+                    ,.  ,'     .-, ...    ` 
+                   ,'  ,'   .-"   P  ``.  : .,. 
+               ,'".'   :   ,   ,--;-,   `.,"   `. 
+              ,'  :    :  '    :  :  `    '-,   `. 
+              ,  ,     :  :    :  t. ',   :  `   ` 
+             ,'  :     `. :    :   `"'`.  :  :   : 
+             :   :       :`.   `.     ,'  :  :    : 
+             `.  `       : `.   `-,...( .,'  ,   ,' 
+              :   :      :   `.      ' "    ,'   : 
+              `. ,",     `.    "----'      ,'    , 
+               `", `,.    `,             .'      : 
+                 :   `,     "-,.,.    ,,'       , 
+                 `     `,.      :'---"'       ,' 
+                  t      `-....-td           ,' 
+                   "-.            "-,,....,-" 
+       ,,-,.  ..      `..            :   ,.''"----"",... 
+   ,'""'    "" `-. .    `T-..    ..-`).,,'             `. 
+ ,"'             `" t    ,( `""""   ,' '    '    ,      `"` 
+ : --. ,   `         `.  ::       ,.       :     : ,''   .' 
+ (   `"),  `.   -.    `. `,      .'   ,    ,   ,'`""-    : 
+ : ,...t,`,.'    `     `,:`,.   '    ,'   ,",--t       ,' 
+  `         `.   `.  ,  `", '   :,   :  ,.''    "--   ,' 
+  `,          :  ,'  `, `,` t   ::   : ,.:           .' 
+   `  -,..---"`'"''.  : ,'`,`.  ::   ,"'`"-,...    ,,' 
+    `,              :`'"'  `,t  :`.,",         '  ,' 
+      t          ,.-`---,.. : t )' '-`-.....    -'' 
+       `. ,""""""'      : ``.  `,",           .' 
+        `"`-.          '    `,   :`,..,.,'"""" 
+            `-,...-,.,'       ", `,   ' 
+                                ", `,. 
+                         -hrr-   :   `,.. ,. 
+                                  """-t.``'`-..    ,..., 
+                                       ``-..  `""""'  , 
+                                           `""---....' 
+                                               
+
+<button type="button">
+Click on me to see change in color.</button>
+</pre>
+</content>
+<br> <br> <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br> <br> <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</article>
+
+<h2 title = "/03/2016"> At Home </h2>
+<article>
+  
+  <h2>By using html<h2>
+  <div >
+ <h1 style="color:black">FusionCharts</h1>
+ <a href="http://www.fusioncharts.com/company/team/">Product</a>|
+ <a href="https://in.linkedin.com/in/pallavn">Pallav Nadhani</a>|
+ <a href="http://www.fusioncharts.com/support/">Contact</a>
+   </div>
+
+<h3>By using html5</h3>
+   <nav>
+		
+         <ul>
+            <li> <a href="http://www.fusioncharts.com/company/team/">Product</a> </li>
+            <li> <a href="http://www.fusioncharts.com/company/team/">Contacts</a> </li>
+            <li> <a href="http://www.fusioncharts.com/company/careers/">Careers</a> </li>
+         </ul>
+	</nav>
+
+<h3 style="color:blue;text-align:left">History</h3>
+	<p id="Pallav Nadhani">The idea behind FusionCharts was born in 2001 when <em>16-year-old</em> ,
+		<a href="https://in.linkedin.com/in/pallavn"><strong>Pallav Nadhani</strong></a>found himself dissatisfied with Microsoft Excel's charting
+		capabilities while using the program to complete high school class assignments. 
+		Nadhani subsequently authored an article on Wrox Press's ASPToday.com technology
+		website which examined the thesis that Macromedia Flash, then used mainly for web
+		banners and pop-up ad, could be used to build an interactive charting solution for 
+		business applications such as dashboards and reports. The article earned him $1,500,
+		and feedback from developers,which together acted as seed money and motivation for 
+		establishing the FusionCharts concept.</p>
+<pre>
+ ________                  __                   
+|        \                |  \                  
+| $$$$$$$__    __  _______ \$$ ______  _______  
+| $$__  |  \  |  \/       |  \/      \|       \ 
+| $$  \ | $$  | $|  $$$$$$| $|  $$$$$$| $$$$$$$\
+| $$$$$ | $$  | $$\$$    \| $| $$  | $| $$  | $$
+| $$    | $$__/ $$_\$$$$$$| $| $$__/ $| $$  | $$
+| $$     \$$    $|       $| $$\$$    $| $$  | $$
+ \$$      \$$$$$$ \$$$$$$$ \$$ \$$$$$$ \$$   \$$
+                                                
+                                                
+                                                
+  ______  __                          __              
+ /      \|  \                        |  \             
+|  $$$$$$| $$____   ______   ______ _| $$_    _______ 
+| $$   \$| $$    \ |      \ /      |   $$ \  /       \
+| $$     | $$$$$$$\ \$$$$$$|  $$$$$$\$$$$$$ |  $$$$$$$
+| $$   __| $$  | $$/      $| $$   \$$| $$ __ \$$    \ 
+| $$__/  | $$  | $|  $$$$$$| $$      | $$|  \_\$$$$$$\
+ \$$    $| $$  | $$\$$    $| $$       \$$  $|       $$
+  \$$$$$$ \$$   \$$ \$$$$$$$\$$        \$$$$ \$$$$$$$ 
+                                                      
+<button type="button">
+Click on me to see change in color.</button>
+</pre>
+ <figure align="right">
+<img src="http://www.fusioncharts.com/fcweb/perch/resources/funology-dude-1.png.pagespeed.ce.18-5lmwjev.png" alt="Dude">
+</figure>                                                     
+</article>
+<br> <br> <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br> <br> <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br> <br> <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h2 style="text-align: center;" > Day 4</h2>
+
+		<table align="center">
+			<h3 style="text-align: center;">Daily Report</h3>
+			<tr>
+			<th>Date</th>
+			<th> Topic</th>
+			<th> Time</th>
+			</tr>
+			<tr>
+			<td>1st March</td> 
+			<td>Html</td>
+			<td>10:00am-4:00pm</td>
+			</tr>
+		</table>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<title>Bus Registration
+		</title>
+		<link rel="stylesheet" type="text/css" href="newbus.css"/>
+</head>
+<body>
+
+	<div id="demo">
+	<img src="party-bus-ext.jpg" width="200px" height="100px">
+	<div><h1 align="center">Bus Registration</h1>
+	     <menu align="center"> <a href="#"><img src="ncBB5rpei.png" width="30px" height="30px">Home</a>
+     		<a href="#"><img src="profile.png" width="30px" height="30px">your Account</a>
+     		<a href="#"><img src="Graphicloads-100-Flat-Settings-3.ico" width="30px" height="30px">Settings</a>
+     		<a href="#"><img src="500_F_12854281_ei4qXCKFWc0TIhSQawTo1ZkeZClDvFyP.jpg" width="30px" height="30px">Registration</a>
+     		</menu>
+     		</div>
+	</div>
+
+
+<fieldset id="r">
+<legend><em>New? Reg Now</em></legend>
+	<div>
+	<form method="GET" action="user.php">
+		Register for avail discount :<br><br>
+		<label>Your Username: <input type="text" name="name" maxlength="50" color="blue" required="required" placeholder="Name"></label><br><br>
+		<label>E-mail Id:     <input type="mail" ame" maxlength="15" color="blue" required="required" placeholder="E-mail Id"></label><br><br>
+		<label>Your Password: <input type="password" name="password" placeholder="Password" required="required"></label><br><br>
+		Gender: <br>
+				<label><input type="radio"/>Female
+				<input type="radio"/>Male</label><br>
+				How Did you hear about us? <br><br>
+				<!-- <select>
+					<option>Answer</option></select> -->
+
+				 
+				  <textarea name="message" rows="10" cols="30">About us:</textarea>
+				  <br>
+				  <input type="submit">
+				
+				<!-- <br>
+				<input type="number" name="Total no. of Person" placeholder="Total no. of Person"></input><br><br>
+				Journy Date:<br><br>
+				<label>To:<input type="date" name="date" placeholder="Date"><br><br>
+				From:<input type="date" name="date" placeholder="Date"></label>
+			
+ -->
+	</form>
+	</div><br>
+	</fieldset>
+	<fieldset id="s">
+	<legend><em>Sign-up </em></legend>
+	For booking:
+	<div>
+	<form method="get" action="#" >
+	<br>
+			<label>Enter Reg-Id:<input type="number" name="Reg Id" placeholder="Reg-Id"></input><br><br></label>
+			Enter Total no. of Person:<input type="number" name="Total no. of Person" placeholder="Total no. of Person"></input><br><br>
+			<label>Journy Date:-From:<input type="date" name="date" placeholder="Date" required="required"><br><br>
+				To:<input type="date" name="date" placeholder="Date" required="required"></label>
+				<br><br>
+
+	Select your Destination and Register:<br><br>
+		<select name="Destination" required="required">
+		<option>Select</option>
+		<optgroup label="out of Bengal" >
+		<optgroup label="Goa" > 
+			<option>AC-Bus--Rs10000</option>
+			<option>Non-AC-Bus--Rs7000</option>
+		</optgroup>
+		<optgroup label="Rajasthan">
+			<option>AC-Bus--Rs10000</option>
+			<option>Non-AC-Bus--Rs7000</option>
+		</optgroup>
+		<optgroup label="Bihar">
+			<option>AC-Bus--Rs10000</option>
+			<option>Non-AC-Bus--Rs7000</option>
+		</optgroup>
+		<optgroup label="Delhi">
+			<option>AC-Bus--Rs10000</option>
+			<option>Non-AC-Bus--7000</option>
+		</optgroup>
+		<optgroup label="Gujrat">
+			<option>AC-Bus--Rs10000</option>
+			<option>Non-AC-Bus--Rs7000</option>
+		</optgroup>
+		</optgroup>
+		<optgroup label="In Bengal">
+		<optgroup value="Kolkata">
+			<option>AC-Bus--Rs8000</option>
+			<option>Non-AC-Bus--Rs4000</option>
+		</optgroup>
+		<optgroup label="Darjeeling"> 
+			<option>AC-Bus--Rs8000</option>
+			<option>Non-AC-Bus--Rs4000</option>
+		</optgroup>
+		<optgroup label="Bankura">
+			<option>AC-Bus--Rs8000</option>
+			<option>Non-AC-Bus--Rs4000</option>
+		</optgroup>
+		</optgroup>
+		</select><br><br>
+		<div class="row">At the time of Returning,you want to use our service?:
+		<div><input type="radio"/>yes</div><br>
+		<div><input type="radio"/>No</div><br>
+		<div><input type="radio"/>Not yet Decided</div>
+		</div>
+				<br>
+	</form>
+	<input type="submit" name="submit" value="Submit">
+	</div>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,31 @@
+		body{
+		/*	background-image:url("party-bus-ext.jpg");*/
+			color: white;
+			background: #222930;
+		}
+		#demo{
+			color: white;
+			padding: 40px;
+			background-color: #4EB1BA;
+			margin: 10px;
+			align:center; 
+		}
+		
+		#demo > img {
+			float: left;
+		}
+		
+		img{
+			vertical-align:-10px;
+		}
+		a{
+			
+			margin-right: 20px;
+		}
+		#r{
+			float:left;
+		}
+		#s{
+			float:left;
+		}
+	

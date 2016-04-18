@@ -1,0 +1,71 @@
+		body{
+			color: black;
+			background: #FEF1E9;
+			/*background-image: url("2.jpg");*/
+		}
+		#home{
+			color: black;
+			padding-top: 1px;
+			padding-bottom: 0px;
+			padding-right: 0px;
+			padding-left: 0px;
+			background-color:#a8b6bf;
+			margin: 0px;
+			align:center; 
+			font-size: 20px;
+		}
+		
+		a{
+			
+			margin-right: 20px;
+			color:#b56969;
+		}
+		
+		#in{
+			float:left;
+			color:#8B4513;
+			font-size: 20px;
+			background-color: 
+		}
+		#up {
+		float: left;
+		color:#7d4627;
+		font-size: 20px;
+	}
+	fieldset{
+			background-color:#c9d8c5;
+	}
+		#name,#pass,#mail{
+		color: red;
+		font-size: 10px;
+	}
+	h1{
+		text-align: center;
+		color:#b56969;
+	}
+	button{
+		background-color: #7d4627;
+		color:white;
+		border-width: 0px;
+		float: right;
+
+	}
+	#img1{
+		float: left;
+	}
+	#img2{
+		float: right;
+	}
+	#img3{
+		float: right;
+	}
+	img{
+			vertical-align:-10px;
+		}
+	#row div{
+		display: inline; 
+	}
+	#row{
+		margin-left:30%;
+		margin-right: 25%;
+	}s

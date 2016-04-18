@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Bus Reg</title>
+	<link rel="stylesheet" type="text/css" href="newbus.css">
+	<script type="text/javascript">
+		function validateForm(){
+		var x =	document.forms["myForm"]["fname"].value;
+		var y = document.forms["myForm"]["password"].value;
+			if ( x==null || x=="")
+			{
+				alert("Required");
+				document.forms["myForm"]["fname"].value="";
+				myForm.fname.focus();
+				return false;
+			}
+
+
+			// switch(x)
+			// {
+
+			// case (null || ""): 
+			// 	 alert("Required");
+			// 	 return false;
+			// 	 break;
+		 // 	default: alert("nice name :)");
+		 // 	return false;
+			// }
+			if ( y.length<6){
+				alert("Password length must be atleast 6");
+				document.forms["myForm"]["password"].value="";
+				myForm.password.focus();
+				return false;
+			}
+		}
+
+	</script>
+	<style type="text/css">
+	
+	#remo {
+		float: left;
+	}
+	</style>
+	
+</head>
+<body>
+	<div id="demo">
+	<img src="party-bus-ext.jpg" width="200px" height="100px">
+	<div><h1 align="center">Bus Registration</h1>
+	     <menu align="center"> <a href="#"><img src="ncBB5rpei.png" width="30px" height="30px">Home</a>
+     		<a href="#"><img src="profile.png" width="30px" height="30px">your Account</a>
+     		<a href="#"><img src="Graphicloads-100-Flat-Settings-3.ico" width="30px" height="30px">Settings</a>
+     		<a href="#"><img src="500_F_12854281_ei4qXCKFWc0TIhSQawTo1ZkeZClDvFyP.jpg" width="30px" height="30px">Registration</a>
+     		</menu>
+     		</div>
+	</div>
+	<div width="100px" height="300px" id="remo" >
+	<fieldset >
+	<legend><em>Register</em></legend>
+	<form name = "myForm" action="demo_form.asp"  onsubmit="return validateForm()" method="post">
+	
+		Username:<input type="text" name="fname"color="blue">
+		<br><br>
+		E-mail-Id:<input type="mail" color="blue" required="required" placeholder="E-mail-Id"><br><br>
+		Password:<input type="password" name="password" placeholder="Password" required="required">
+		<br><br>
+		Gender: 
+		<input type="radio" name="group1" value="Female"> Female
+		<input type="radio" name="group1" value="Male" checked> Male <br><br/>
+						How Did you hear about us? <br><br>
+		<textarea name="message" rows="10" cols="30">About us:</textarea><br>
+		<input type="submit" value="Submit" >
+	</form>
+	</fieldset>
+	</div>
+	<!-- <div width="100px" height="300px" id="demo">
+	<fieldset >
+	<legend><em>Register</em></legend>
+	<form name = "myForm" action="demo_form.asp"  onsubmit="return validateForm()" method="post">
+		Your Username: <input type="text" name="fname" maxlength="50" color="blue">
+		
+		<br><br>
+		E-mail Id:<input type="mail"  maxlength="15" color="blue" required="required" placeholder="E-mail-Id"><br><br>
+		Your Password:<input type="password" name="password" placeholder="Password" required="required"><br><br>
+		Gender: <br>
+		<input type="radio" name="female" value="Female" checked="checked" />Female
+	    <input type="radio" name="male" value="Male" />Male</label><br>
+						How Did you hear about us? <br><br>
+		<textarea name="message" rows="10" cols="30">About us:</textarea><br>
+		<input type="submit" value="Submit" >
+	</form>
+	</fieldset>
+	</div> -->
+	
+</body>
+</html>

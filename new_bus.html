@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Bus Reg</title>
+		<link rel="stylesheet" type="text/css" href="new_bus.css">
+	</head>
+	<body>
+		<div id="home">
+			<img id="img1" src="party-bus-ext.jpg" width="150px" height="75px">
+			<img id="img2" src="party-bus-ext.jpg" width="150px" height="75px">
+				<div>
+					<h1>Bus Registration</h1>
+	     			<div id="row"> 
+	     				<div><a href="#"><img src="ncBB5rpei.png" width="30px" height="30px">Home</a></div>
+     					<div><a href="#"><img src="profile.png" width="30px" height="30px">your Account</a></div>
+     					<div><a href="#"><img src="Graphicloads-100-Flat-Settings-3.ico" width="30px" height="30px">Settings</a></div>
+     					<div><a href="#" id="s"><img src="500_F_12854281_ei4qXCKFWc0TIhSQawTo1ZkeZClDvFyP.jpg" width="30px" height="30px">Registration</a>
+     					</div>
+     				</div>
+     			</div>
+		</div>
+		<div width="100px" height="300px" id="up" >
+			<fieldset >
+				<legend> <em>Sign-up</em> </legend>
+				<form name = "myForm">
+					Username:<input type="text" name="fname" color="blue" onblur="validateUser()"><br>
+					<span id="name"></span>
+					<br><br>
+					E-mail-Id:<input type="mail" name="email"  color="blue" required="required" placeholder="E-mail-Id" onblur="return validateEmail()"><br>
+					<span id="mail"></span><br><br>
+					Password:<input type="password" name="password" placeholder="Password" required="required" onblur="return validatePassword()"><br/>
+					<span id="pass"></span><br>
+					<button onclick="signUp()"> Submit</button>
+				</form>
+			</fieldset>
+		</div>
+
+			
+
+		<div id="in">
+			<fieldset>
+				<legend><em>Sign-in </em></legend>
+				For booking:
+				<form name="myForm2">
+				<br>
+					<label> Username:</label><input type="text" name="fname2" color="blue">
+				
+					<br><br>
+					<label>Password:</label>
+					<input type="password" name="password2" placeholder="Password" required="required">
+					<br><br>
+
+					<label>Reg_Id :--</label>
+					<input type="text" name="Reg_id" placeholder="Reg_Id" required="required"><br><br>
+					<button type="button" onclick="sign_in()"> Submit</button>
+				
+				
+				</form>
+			</fieldset>
+		</div>
+	<!-- 	<div>
+			Photography Contest -
+			<p>Upload your holidays photo and win exciting prizes </p>
+			<img src="holiday-5.jpg" id="img3" width="275px" height="173px">
+			<img src="images.jpeg" id="img3"width="275px" height="173px">
+			<img src="images1.jpeg" id="img3"width="275px" height="173px">
+			<img src="holiday-5.jpg" id="img3"width="275px" height="173px">
+			<img src="images.jpeg" id="img3"width="275px" height="173px">
+			<img src="images1.jpeg" id="img3"width="275px" height="173px">
+			<img src="images.jpeg" id="img3"width="275px" height="173px">
+			<img src="images1.jpeg" id="img3"width="275px" height="173px">
+		</div>
+	 <footer>bus_reg@training</footer> -->
+		<script type="text/javascript" src="new_bus.js">
+		</script>
+	</body>
+</html>

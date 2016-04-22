@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Bus Reg</title>
+		<link rel="stylesheet" type="text/css" href="new_bus.css">
+	</head>
+	<body>
+		<div>
+			<div id="main">
+				<div id="demo">
+					<img src="party-bus-ext.jpg" id="img1" width="150px" height="75px" >
+					<img src="party-bus-ext.jpg" id="img2" width="150px" height="75px" >
+					<h1 align="center">Bus Registration</h1>
+				</div>
+				<div id="row">
+			     	<div id="r">
+			     		<a href="#"><img src="ncBB5rpei.png" width="30px" height="30px">Home</a>
+			     		<a href="#"><img src="profile.png" width="30px" height="30px">Your Account</a>
+			     		<a href="#"><img src="500_F_12854281_ei4qXCKFWc0TIhSQawTo1ZkeZClDvFyP.jpg" width="30px" heigh="30px">Registration</a>
+			     		<a href="#"><img src="Graphicloads-100-Flat-Settings-3.ico" width="30px" height="30px">Settings</a>
+			     	</div>
+		     	</div>
+			</div>
+		</div>
+			<hr>
+			<div width="100px" height="300px" id="up" >
+				<fieldset >
+					<legend><em>Sign-up</em> </legend>
+					<form name = "myForm" method="get">
+						Username:<input type="text"  id="put" name="fname" color="blue" onblur="validateUser()" required="required"><br>
+						<span id="name"></span>
+						<br><br>
+						E-mail-Id:<input type="mail" id="put" name="email"  color="blue" required="required" placeholder="E-mail-Id" onblur="validateEmail()"><br>
+						<span id="mail"></span><br><br>
+						Password:<input type="password"  id="put" name="password" placeholder="Password" required="required" 
+						onblur="validatePassword()"><br>
+						<span id="pass"></span><br>
+						<button type="button" onclick="validate()"> Submit</button>
+					</form>
+				</fieldset>
+			</div>
+
+			<div id="Div2">
+				<fieldset>
+					<legend><em>Log-in </em></legend>
+					For booking:
+					<form name="myForm2" ><br>
+						<label> Username:</label>
+						<input type="text"  id="put" name="fname2" color="blue" required="required">
+						<br><br>
+						<label>Password:</label>
+						<input type="password" name="password2"  id="put" placeholder="Password" required="required">
+						<br><br>
+						<button type="button" onclick="lookUp()">Log_in</button>
+						<!-- <div><input  id="but" type="button" value="Submit" onclick="switchVisible()" /></div> -->
+					</form>
+				</fieldset>
+			</div>
+			<div id="Div1">
+				<fieldset>
+					<form name="myForm2" ><br>
+					<div id="Div3">
+						Select your Source and Destination:<br><br>
+						<select name="Source" id="source" required="required">
+							<option>From</option>
+							<!-- <optgroup label="out of Bengal" >
+								<option>Delhi</option>
+								<option>Gujrat</option>
+							</optgroup> -->
+							<optgroup label="In Bengal">
+								<option>Kolkata</option>
+								<!-- <option>Durgapur stn</option> -->
+							</optgroup>
+							<span id="source1"></span>
+						</select>
+						<select name="Destination" id="destination" required="required">
+							<option>To</option>
+							<optgroup label="out of Bengal" >
+								<option>Delhi</option>
+								<option>Gujarat</option>
+								<option>Mumbai</option>
+							</optgroup>
+							<span id="dest1"></span>
+						</select>
+					</div>
+						<button type="button" id="btn1" onclick="route()"> Next</button>
+					</form>
+				</fieldset>
+			</div>
+			<div id="Text1">
+				<h2><em>Registering is easy!</em></h2>
+					<ul>
+						<li>
+							If you have recently moved or changed your contact information, <br> <br>please Call our Call Center at 799-8111 to update your contact information.
+						</li><br>
+						<li>
+							<a href="#">Click here to view the Bus Registration video</a>
+						</li><br>
+						
+					</ul>
+			</div>
+		<div id="Div4">
+			<fieldset>
+				<legend><em>Routes and cost</em></legend>
+				<form>
+				<div id="Div6">
+				<label>No. of Person:</label><input id="put1" class="put" type="number" name="Total no. of Person">
+				</input><br><br>
+				<label>Journy Date:-</label><br>
+				<label>From:</label><input id="put2" class ="put" type="date" name="date" placeholder="Date" required="required">
+				<br><br>
+				<label>To:</label><input id="put3" class="put" type="date" name="date" placeholder="Date" required="required">
+				<br><br>
+				<button type="button" onclick="calculate()">Calc.</button>
+				</div>
+				</form>
+			</fieldset>
+		</div>
+		<div id="Div5">
+			<fieldset>
+				<form>
+					<div class="row">At the time of Returning,you want to use our service?:<br>
+						<input type="radio" name="feed" value="yes" checked> Yes<br>
+						<input type="radio" name="feed" value="no"> No<br>
+						<input type="radio" name="feed" value="other"> not yet decided!
+					</div>
+					<button type="button">Pay</button>
+				</form>
+			</fieldset>
+		</div>
+			<script type="text/javascript" src="new_bus.js">
+			</script>
+
+			<div id="foot"><footer><a href="#"><em>Bus_reg@training</em></a></footer></div>
+		</div>
+		
+	</body>
+</html>

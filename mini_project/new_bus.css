@@ -1,0 +1,170 @@
+		body{
+			color: black;
+			background:#a8b6bf;
+			font-family: sans-serif;
+
+		}
+		#demo{
+			color: white;
+			padding: 5px;
+			background-color:#7d4627;
+			align:center; 
+		}
+		img{
+			vertical-align:-10px;
+		}
+		
+		#img1{
+			float:left;
+		}
+		#img2{
+			float:right;
+		}
+		a{
+			
+			margin-right: 20px;
+		}
+		#r{
+			float:right;
+		
+		}
+		#Div2{
+			color:#7d4627;
+			background-color:#c9d8c5;
+			float: right;
+		}
+		#up {
+			color:#7d4627;
+			background-color:#c9d8c5;
+			float: left;
+		}
+		#name,#pass,#mail{
+			color: red;
+			font-size: 10px;
+		}
+		#row div{
+			display:inline;
+		}
+		#row{	
+			float:right;
+			background-color: #EBE3E0;
+			color: black; 
+			width: 100%;
+		}
+		fieldset{
+			border-style: none;
+		}
+		#put {
+		    width: 100%;
+		    padding: 12px 10px;
+		    margin: 4px 0;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		    border-top-style:none;
+		    border-right-style: none;
+		    border-bottom-style: solid;
+		    border-left-style:none;
+		}
+		#foot{
+			color:white; 
+			background-color:#edd9c0;
+			margin-top: 10px;
+			padding: 10px;
+			position:absolute;
+			bottom: 0;
+		}
+		#main{
+			position: relative;
+		}
+		#text{
+			position: relative;
+			float:left;
+			font-size: 15px;
+			padding: 5px;
+			color:#7d4627;
+  			font-family: sans-serif;
+  			display: block;
+
+		}
+		button{
+			border-radius: 10px;
+			border-color:white;
+			border-style: dashed;
+			float: right;
+			background-color: #7d4627; /* Green */
+    		border: none;
+	    	color: white ;
+	    	padding: 15px 32px;
+	    	text-align: center;
+	    	text-decoration: none;
+	    	display: inline-block;
+	    	font-size: 16px;
+
+		}
+		#but{
+			border-radius: 12px;
+			border-color:white;
+			border-style: dashed;
+		}
+		#Div1{
+		  display: none;
+		  position: relative;
+		  color:#7d4627;
+		  background-color:#c9d8c5;
+		  /*width: 300px;
+*/
+
+		}
+
+		.divs
+		{
+		 width: 50px;
+		 height: 50px;
+		 border: 1px solid #000;
+		}
+		h2{
+			text-align: center;
+		}
+		
+		#Div4{
+			display: none;
+			color:#7d4627;
+		 	background-color:#c9d8c5;
+		 
+		}
+		#Div5{
+			display: none;
+			color:#7d4627;
+		 	background-color:#c9d8c5;
+		}
+		.put{
+			width: 100%;
+		    padding: 12px 10px;
+		    margin: 4px 0;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		    border-top-style:none;
+		    border-right-style: none;
+		    border-bottom-style: solid;
+		    border-left-style:none;
+
+		}
+		select,option{
+			width: 100%;
+		    padding: 12px 10px;
+		    margin: 4px 0;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		    border-top-style:none;
+		    border-right-style: none;
+		    border-bottom-style: solid;
+		    border-left-style:none;
+		    text-align: center;
+
+		}
+		div{
+
+		}
